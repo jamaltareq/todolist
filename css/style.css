@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.video,
+.inputs,
+.videosign {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: -60px;
+    width: 1000px;
+    transform: rotate(90deg) translate(0%, 50%);
+}
+
+.create {
+    width: 60%;
+    margin: auto;
+}
+
+input {
+    height: 50px;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: 600;
+}
+
+button {
+    background-color: #212529 !important;
+    color: white !important;
+    height: 50px;
+}

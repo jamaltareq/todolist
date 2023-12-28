@@ -1,0 +1,123 @@
+.navbarTodo {
+    background-color: #f4f4f4;
+    height: 98vh;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.log img {
+    width: 35px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: #ebebeb;
+}
+
+.option {
+    font-size: 14px;
+}
+
+.option:nth-last-of-type(2) {
+    border-top: #969696 solid .5px;
+    padding: 20px 0 10px;
+}
+
+.bracket {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 85%;
+    padding: 10px;
+}
+
+.bracket:hover,
+.active {
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+    .navbarTodo {
+        width: 70px !important;
+    }
+    .ends {
+        right: 0 !important;
+    }
+    .carddone {
+        background-color: white;
+        width: 91% !important;
+        height: 40% !important;
+    }
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.card-sticky {
+    min-height: 300px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.add-st {
+    cursor: pointer;
+}
+
+.card-quotes {
+    border: #969696 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: #ebebeb;
+    box-shadow: -3px 3px 0px #0dcaf0;
+}
+
+.wid {
+    width: 30px;
+    height: 30px;
+}
+
+.donediv {
+    background-color: rgba(0, 0, 0, 0.282);
+    top: 0;
+    height: 100vh !important;
+}
+
+.trans {
+    transform: translate(50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+    border: rgba(0, 0, 0, 0.282) 5px solid;
+    cursor: pointer;
+}
+
+.breackline {
+    word-break: break-all;
+}
+
+.carddone {
+    background-color: white;
+}
+
+.fsnotf {
+    font-size: 10px;
+}
