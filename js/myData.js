@@ -1,9 +1,9 @@
 
 console.log(localStorage.getItem("createAcount"))
 if (localStorage.getItem("createAcount") == null) {
-    location.href = "../todolist/sign.html";
+    location.href = "https://jamaltareq.github.io/todolist/sign.html";
 }
 let signOut = document.getElementById("signOut")
 signOut.addEventListener("click",()=>{
-    location.replace("../todolist/sign.html")
+    location.replace("https://jamaltareq.github.io/todolist/sign.html")
 })
