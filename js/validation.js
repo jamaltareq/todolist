@@ -37,7 +37,7 @@ if(dtnCreate != null){
             })
             console.log(objectCreate);
             localStorage.setItem("createAcount", JSON.stringify(objectCreate))
-            location.href = "../sign.html";
+            location.href = "../todolist/sign.html";
         }
     
     })
@@ -49,5 +49,5 @@ let emailsign = document.getElementById("emailsign")
 let passwordsign = document.getElementById("passwordsign")
 let btn_sign = document.getElementById("btn_sign")
 btn_sign?.addEventListener('click', () => {
-    location.href= "../page.html"
+    location.href= "../todolist/page.html"
 })
